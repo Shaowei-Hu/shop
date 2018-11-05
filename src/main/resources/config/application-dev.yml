@@ -43,7 +43,7 @@ spring:
         serialization.indent_output: true
     data:
         mongodb:
-            uri: mongodb://localhost:27017
+            uri: mongodb://164.132.47.147:27017
             database: shop
         elasticsearch:
             properties:
