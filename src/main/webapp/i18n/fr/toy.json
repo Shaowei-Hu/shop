@@ -1,0 +1,25 @@
+
+{
+    "shopApp": {
+        "toy" : {
+            "home": {
+                "title": "Toys",
+                "createLabel": "Créer un nouveau Toy",
+                "createOrEditLabel": "Créer ou éditer un Toy",
+                "search": "Recherche pour Toy"
+            },
+            "created": "Un nouveau Toy a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Toy avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Toy avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Toy {{ id }} ?"
+            },
+            "detail": {
+                "title": "Toy"
+            },
+            "recommendedAge": "Recommended Age",
+            "gender": "Gender",
+            "purchaseDate": "Purchase Date"
+        }
+    }
+}

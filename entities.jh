@@ -1,0 +1,38 @@
+entity Product {
+    id Long
+    brand String
+    name String
+    releaseDate	Instant
+    comment	String
+    manufactureOrigin String
+    meterials String
+    externalUrl	String
+    originalPrice Double
+    actualPrice	Double
+    garantie Boolean
+    photo String
+    state String
+    creationDate Instant
+    modificationDate Instant
+}
+
+entity Dimnesion {
+    length	Double,
+    width Double,
+    height	Double,
+    weight	Double
+}
+
+entity Toy {
+    recommendedAge String,
+    gender String,
+    purchaseDate Instant	
+}
+
+// Set pagination options
+paginate * with pagination
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl

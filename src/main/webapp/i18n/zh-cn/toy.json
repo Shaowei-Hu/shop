@@ -1,0 +1,25 @@
+
+{
+    "shopApp": {
+        "toy" : {
+            "home": {
+                "title": "Toys",
+                "createLabel": "创建新 Toy",
+                "createOrEditLabel": "创建或编辑 Toy",
+                "search": "查找 Toy"
+            },
+            "created": "Toy {{ param }} 创建成功",
+            "updated": "Toy {{ param }} 更新成功",
+            "deleted": "Toy {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Toy {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Toy"
+            },
+            "recommendedAge": "Recommended Age",
+            "gender": "Gender",
+            "purchaseDate": "Purchase Date"
+        }
+    }
+}

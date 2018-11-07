@@ -1,0 +1,26 @@
+
+{
+    "shopApp": {
+        "dimnesion" : {
+            "home": {
+                "title": "Dimnesions",
+                "createLabel": "Créer un nouveau Dimnesion",
+                "createOrEditLabel": "Créer ou éditer un Dimnesion",
+                "search": "Recherche pour Dimnesion"
+            },
+            "created": "Un nouveau Dimnesion a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Dimnesion avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Dimnesion avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Dimnesion {{ id }} ?"
+            },
+            "detail": {
+                "title": "Dimnesion"
+            },
+            "length": "Length",
+            "width": "Width",
+            "height": "Height",
+            "weight": "Weight"
+        }
+    }
+}

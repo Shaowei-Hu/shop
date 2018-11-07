@@ -1,0 +1,71 @@
+{
+    "name": "Product",
+    "fields": [
+        {
+            "fieldName": "brand",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "releaseDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "comment",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "manufactureOrigin",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "meterials",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "externalUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "originalPrice",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "actualPrice",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "garantie",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "photo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "state",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "modificationDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181107213954",
+    "entityTableName": "product",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

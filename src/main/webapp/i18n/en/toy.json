@@ -1,0 +1,25 @@
+
+{
+    "shopApp": {
+        "toy" : {
+            "home": {
+                "title": "Toys",
+                "createLabel": "Create a new Toy",
+                "createOrEditLabel": "Create or edit a Toy",
+                "search": "Search for Toy"
+            },
+            "created": "A new Toy is created with identifier {{ param }}",
+            "updated": "A Toy is updated with identifier {{ param }}",
+            "deleted": "A Toy is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Toy {{ id }}?"
+            },
+            "detail": {
+                "title": "Toy"
+            },
+            "recommendedAge": "Recommended Age",
+            "gender": "Gender",
+            "purchaseDate": "Purchase Date"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+
+{
+    "shopApp": {
+        "dimnesion" : {
+            "home": {
+                "title": "Dimnesions",
+                "createLabel": "创建新 Dimnesion",
+                "createOrEditLabel": "创建或编辑 Dimnesion",
+                "search": "查找 Dimnesion"
+            },
+            "created": "Dimnesion {{ param }} 创建成功",
+            "updated": "Dimnesion {{ param }} 更新成功",
+            "deleted": "Dimnesion {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Dimnesion {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Dimnesion"
+            },
+            "length": "Length",
+            "width": "Width",
+            "height": "Height",
+            "weight": "Weight"
+        }
+    }
+}
